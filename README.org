@@ -1,13 +1,11 @@
 #+title: THEOURGIA
-
-Experiments on building custom OS images with [[https://blue-build.org][BlueBuild]].
-
+Experiments on building custom OS images with
+[[https://blue-build.org][BlueBuild]].
 * Verification
-
-These images are signed with [[https://sigstore.dev][Sigstore]]'s [[https://github.com/sigstore/cosign][cosign]]. You can verify the
-signature by downloading the `cosign.pub` file from this repo and
+These images are signed with [[https://sigstore.dev][Sigstore]]'s
+[[https://github.com/sigstore/cosign][cosign]]. You can verify the
+signature by downloading the =cosign.pub= file from this repo and
 running the following command:
-
 #+begin_src sh
 cosign verify --key cosign.pub ghcr.io/ZharMeny/theourgia
 #+end_src
