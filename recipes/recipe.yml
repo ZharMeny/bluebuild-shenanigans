@@ -4,9 +4,6 @@ description: OS image made with blue-build
 base-image: ghcr.io/ublue-os/silverblue-main
 image-version: 40
 modules:
-  - type: files
-    files:
-      - usr: /usr
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
@@ -15,7 +12,6 @@ modules:
       - firefox
       - firefox-langpacks
   - type: default-flatpaks
-    notify: true
     system:
       install:
         - com.brave.Browser
@@ -27,6 +23,5 @@ modules:
         - org.keepassxc.KeePassXC
         - org.telegram.desktop
         - org.torproject.torbrowser-launcher
-      remove:
   - type: brew
   - type: signing
