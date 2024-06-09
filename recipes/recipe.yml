@@ -18,6 +18,15 @@ modules:
     notify: true
     system:
       install:
+        - com.brave.Browser
+        - com.github.tchx84.Flatseal
+        - io.mpv.Mpv
+        - net.mullvad.MullvadBrowser
+        - org.darktable.Darktable
+        - org.gnome.Fractal
+        - org.keepassxc.KeePassXC
+        - org.telegram.desktop
+        - org.torproject.torbrowser-launcher
       remove:
   - type: brew
   - type: signing
