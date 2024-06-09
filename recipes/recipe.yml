@@ -18,4 +18,5 @@ modules:
     system:
       install:
       remove:
+  - type: brew
   - type: signing
