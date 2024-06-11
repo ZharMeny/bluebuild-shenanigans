@@ -23,4 +23,6 @@ modules:
         - org.telegram.desktop
         - org.torproject.torbrowser-launcher
   - type: brew
+  - type: chezmoi
+    repository: "ZharMeny"
   - type: signing
