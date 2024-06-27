@@ -11,15 +11,42 @@ modules:
   - type: default-flatpaks
     system:
       install:
+        - app.devsuite.Ptyxis
+        - app.drey.Biblioteca
+        - app.drey.EarTag
+        - app.drey.Warp
+        - ca.desrt.dconf-editor
         - com.brave.Browser
+        - com.github.finefindus.eyedropper
+        - com.github.hugolabe.Wike
+        - com.github.huluti.Curtail
         - com.github.tchx84.Flatseal
-        - io.mpv.Mpv
-        - net.mullvad.MullvadBrowser
+        - com.rafaelmardojai.Blanket
+        - de.haeckerfelix.Fragments
+        - dev.geopjr.Collision
+        - io.github.celluloid_player.Celluloid
+        - io.gitlab.adhami3310.Converter
+        - io.gitlab.adhami3310.Impression
         - org.darktable.Darktable
+        - org.gnome.Characters
+        - org.gnome.Devhelp
+        - org.gnome.Epiphany
         - org.gnome.Fractal
+        - org.gnome.Logs
+        - org.gnome.Loupe
+        - org.gnome.Papers
+        - org.gnome.Solanum
+        - org.gnome.Weather
+        - org.gnome.baobab
+        - org.gnome.clocks
+        - org.gnome.font-viewer
         - org.keepassxc.KeePassXC
         - org.telegram.desktop
         - org.torproject.torbrowser-launcher
+        - page.kramo.Cartridges
+        - re.sonny.Junction
+        - re.sonny.Tangram
+        - se.sjoerd.Graphs
   - type: brew
   - type: chezmoi
     repository: "ZharMeny"
