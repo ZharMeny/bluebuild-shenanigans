@@ -40,10 +40,10 @@ modules:
         - org.gnome.Papers
         - org.gnome.Solanum
         - org.gnome.Weather
+        - org.gnome.World.Secrets
         - org.gnome.baobab
         - org.gnome.clocks
         - org.gnome.font-viewer
-        - org.keepassxc.KeePassXC
         - org.telegram.desktop
         - org.torproject.torbrowser-launcher
         - page.kramo.Cartridges
