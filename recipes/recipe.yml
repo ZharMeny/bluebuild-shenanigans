@@ -17,7 +17,6 @@ modules:
     system:
       install:
         - app.devsuite.Ptyxis
-        - app.drey.Biblioteca
         - app.drey.EarTag
         - app.drey.Warp
         - ca.desrt.dconf-editor
@@ -34,7 +33,6 @@ modules:
         - io.gitlab.adhami3310.Impression
         - org.darktable.Darktable
         - org.gnome.Characters
-        - org.gnome.Devhelp
         - org.gnome.Epiphany
         - org.gnome.Fractal
         - org.gnome.Logs
