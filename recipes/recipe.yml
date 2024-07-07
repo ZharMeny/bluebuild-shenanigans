@@ -7,7 +7,9 @@ modules:
   - type: rpm-ostree
     install:
       - emacs
+      - fd
       - fish
+      - ripgrep
     remove:
       - firefox
       - firefox-langpacks
