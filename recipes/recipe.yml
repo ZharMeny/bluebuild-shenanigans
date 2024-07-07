@@ -4,15 +4,9 @@ description: OS image made with blue-build
 base-image: ghcr.io/ublue-os/silverblue-main
 image-version: 40
 modules:
-  - type: rpm-ostree
-    install:
-      - emacs
-      - fd
-      - fish
-      - ripgrep
-    remove:
-      - firefox
-      - firefox-langpacks
+  - type: brew
+  - type: chezmoi
+    repository: "ZharMeny"
   - type: default-flatpaks
     system:
       install:
@@ -50,10 +44,16 @@ modules:
         - re.sonny.Junction
         - re.sonny.Tangram
         - se.sjoerd.Graphs
-  - type: brew
-  - type: chezmoi
-    repository: "ZharMeny"
   - type: gschema-overrides
     include:
        - zz1-theourgia.gschema.override
+  - type: rpm-ostree
+    install:
+      - emacs
+      - fd
+      - fish
+      - ripgrep
+    remove:
+      - firefox
+      - firefox-langpacks
   - type: signing
