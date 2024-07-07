@@ -50,7 +50,7 @@ modules:
   - type: rpm-ostree
     install:
       - emacs
-      - fd
+      - fd-find
       - fish
       - ripgrep
     remove:
