@@ -53,4 +53,7 @@ modules:
   - type: brew
   - type: chezmoi
     repository: "ZharMeny"
+  - type: gschema-overrides
+    include:
+       - zz1-theourgia.gschema.override
   - type: signing

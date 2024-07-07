@@ -1,0 +1,22 @@
+[org.gnome.desktop.interface]
+clock-show-seconds=true
+clock-show-weekday=true
+
+[org.gnome.desktop.peripherals.mouse]
+accel-profile='flat'
+left-handed=true
+natural-scroll=true
+
+[org.gnome.desktop.peripherals.touchpad]
+accel-profile='flat'
+
+[org.gnome.settings-daemon.plugins.color]
+night-light-enabled=true
+night-light-temperature=uint32 1700
+
+[org.gnome.shell]
+disable-user-extensions=true
+favorite-apps=[]
+
+[org.gnome.system.locale]
+region='en_DK.UTF-8'
