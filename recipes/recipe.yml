@@ -44,9 +44,9 @@ modules:
         - re.sonny.Junction
         - re.sonny.Tangram
         - se.sjoerd.Graphs
-  # - type: gschema-overrides
-  #   include:
-  #      - zz1-theourgia.gschema.override
+  - type: gschema-overrides
+    include:
+      - zz1-theourgia.gschema.override
   - type: rpm-ostree
     install:
       - emacs
