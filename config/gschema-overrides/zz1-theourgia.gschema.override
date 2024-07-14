@@ -1,3 +1,7 @@
+[org.gnome.desktop.input.sources]
+sources=[('xkb', 'us+colemak_dh_wide')]
+xkb-options=['ctrl:swap_lalt_lctl_lwin']
+
 [org.gnome.desktop.interface]
 clock-show-seconds=true
 clock-show-weekday=true
