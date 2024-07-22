@@ -52,6 +52,7 @@ modules:
       - emacs
       - fd-find
       - fish
+      - mpv
       - ripgrep
     remove:
       - firefox
