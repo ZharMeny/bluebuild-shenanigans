@@ -46,6 +46,8 @@ modules:
     include:
       - zz1-theourgia.gschema.override
   - type: rpm-ostree
+    repos:
+      - https://copr.fedorainfracloud.org/coprs/peterwu/iosevka/repo/fedora-%OS_VERSION%/peterwu-iosevka-fedora-%OS_VERSION%.repo
     install:
       - emacs
       - fd-find
