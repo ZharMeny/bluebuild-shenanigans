@@ -10,7 +10,6 @@ modules:
   - type: default-flatpaks
     system:
       install:
-        - app.devsuite.Ptyxis
         - app.drey.EarTag
         - app.drey.Warp
         - ca.desrt.dconf-editor
@@ -22,7 +21,6 @@ modules:
         - com.rafaelmardojai.Blanket
         - de.haeckerfelix.Fragments
         - dev.geopjr.Collision
-        - io.github.celluloid_player.Celluloid
         - io.gitlab.adhami3310.Converter
         - io.gitlab.adhami3310.Impression
         - org.darktable.Darktable
