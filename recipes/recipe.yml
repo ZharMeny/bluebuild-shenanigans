@@ -52,6 +52,8 @@ modules:
       - emacs
       - fd-find
       - fish
+      - iosevka
+      - iosevka-aile
       - mpv
       - ripgrep
     remove:
