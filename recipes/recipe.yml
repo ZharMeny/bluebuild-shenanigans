@@ -51,7 +51,6 @@ modules:
     install:
       - emacs
       - fd-find
-      - fish
       #- iosevka
       #- iosevka-aile
       - mpv
